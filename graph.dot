@@ -1,0 +1,60 @@
+digraph RGL__DirectedAdjacencyGraph {
+    cm [
+        fontsize = 8,
+        label = cm
+    ]
+
+    tin [
+        fontsize = 8,
+        label = tin
+    ]
+
+    iron [
+        fontsize = 8,
+        label = iron
+    ]
+
+    expert [
+        fontsize = 8,
+        label = expert
+    ]
+
+    ldir [
+        fontsize = 8,
+        label = ldir
+    ]
+
+    zinc [
+        fontsize = 8,
+        label = zinc
+    ]
+
+    copper [
+        fontsize = 8,
+        label = copper
+    ]
+
+    cm -> tin [
+        fontsize = 8
+    ]
+
+    iron -> tin [
+        fontsize = 8
+    ]
+
+    expert -> tin [
+        fontsize = 8
+    ]
+
+    ldir -> zinc [
+        fontsize = 8
+    ]
+
+    zinc -> cm [
+        fontsize = 8
+    ]
+
+    copper -> zinc [
+        fontsize = 8
+    ]
+}
