@@ -5,7 +5,7 @@ class Workflow
   include ActiveModel::Model
 
   def stacks
-    [Stack.lead, Stack.tin, Stack.zinc]
+    [Stack.pewter, Stack.lead, Stack.tin, Stack.zinc].map
   end
 
   def nodes
